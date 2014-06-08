@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.android.qxd0102.pluscinematv"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cinema"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.app.android.qxd0102.pluscinematv.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.app.android.qxd0102.pluscinematv.ListaInicial"
+            android:label="@string/title_activity_lista_inicial" >
+        </activity>
+        <activity
+            android:name="com.app.android.qxd0102.pluscinematv.Filme"
+            android:label="@string/title_activity_filme" >
+        </activity>
+        <activity
+            android:name="com.app.android.qxd0102.pluscinematv.Serie"
+            android:label="@string/title_activity_serie" >
+        </activity>
+        <activity
+            android:name="com.app.android.qxd0102.pluscinematv.Lista_Series"
+            android:label="@string/title_activity_lista_de_filmes" >
+        </activity>
+        <activity
+            android:name="com.app.android.qxd0102.pluscinematv.ListaDeSeries"
+            android:label="@string/title_activity_lista_de_series" >
+        </activity>
+        <activity
+            android:name="com.app.android.qxd0102.pluscinematv.VerImagem"
+            android:label="@string/title_activity_ver_imagem" >
+        </activity>
+        <activity
+            android:name="com.app.android.qxd0102.pluscinematv.BuscarNoServidor"
+            android:label="@string/title_activity_buscar_no_servidor" >
+        </activity>
+        <activity
+            android:name="com.app.android.qxd0102.pluscinematv.Lista_Filmes"
+            android:label="@string/title_activity_lista_series" >
+        </activity>
+
+        <service
+            android:name="com.app.android.qxd0102.pluscinematv.ServicoTest"
+            android:exported="false"
+            android:label="ServicoTest" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="SERVICO_TEST" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.app.android.qxd0102.pluscinematv.BroadcastTest"
+            android:label="BroadcastTest"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.app.android.qxd0102.pluscinematv.Notificacao"
+            android:label="@string/title_activity_notificacao" >
+        </activity>
+        <activity
+            android:name="com.app.android.qxd0102.pluscinematv.Trailer"
+            android:label="@string/title_activity_trailer" >
+        </activity>
+        <activity
+            android:name="com.app.android.qxd0102.pluscinematv.Splash"
+            android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.android.qxd0102.pluscinematv.TelaInicial"
+            android:label="@string/title_activity_tela_inicial" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.android.qxd0102.pluscinematv.TelaInicial2"
+            android:label="@string/title_activity_tela_inicial2" >
+        </activity>
+        <activity
+            android:name="com.app.android.qxd0102.pluscinematv.TelaFilmes"
+            android:label="@string/title_activity_tela_filmes" >
+        </activity>
+    </application>
+
+</manifest>

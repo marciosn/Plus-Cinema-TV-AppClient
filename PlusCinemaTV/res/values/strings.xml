@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Plus Cinema &amp; TV</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_lista_inicial">Séries e Filmes</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="itens">
+        <item>Lista de Filmes</item>
+        <item>Lista de Séries</item>
+    </string-array>
+    <string-array name="filmes">
+        <item>Homem de Aço</item>
+        <item>Stars Wars</item>
+        <item>Alice no país das maravilhas</item>
+        <item>Avatar</item>
+        <item>Batman O Cavaleiro Das Trevas</item>
+        <item>jogos Vorazes - Em chamas</item>
+        <item>Vigaristas</item>
+        <item>Hannibal</item>
+        <item>Homem de Ferro</item>
+        <item>Harry Potter</item>
+        <item>Gladiador</item>
+        <item>Espetacular Homem Aranha</item>
+        <item>Operação Valquíria</item>
+        <item>Star Trek</item>
+        <item>O Ditador</item>
+        <item>Branca de Neve e o Caçador</item>
+        <item>Troy</item>
+    </string-array>
+    <string-array name="series">
+        <item>Alcatraz</item>
+        <item>Revolution</item>
+        <item>Teen Wolf</item>
+        <item>Spartacus</item>
+        <item>Dexter</item>
+        <item>Supernatural</item>
+        <item>Continuum</item>
+        <item>Grymm</item>
+        <item>Arrow</item>
+        <item>Drácula</item>
+        <item>Falling Skies</item>
+        <item>Once</item>
+        <item>Defiance</item>
+        <item>Revenge</item>
+        <item>Bones</item>
+        <item>Vegas</item>
+        <item>Sherlock</item>
+        <item>Nikita</item>
+        <item>House</item>
+    </string-array>
+
+    <string name="title_activity_filme">Filme</string>
+    <string name="title_activity_serie">Serie</string>
+    <string name="title_activity_lista_de_filmes">Lista De Series</string>
+    <string name="title_activity_lista_series">Lista De Filmes</string>
+    <string name="title_activity_lista_de_series">Lista</string>
+    <string name="title_activity_ver_imagem">Capa</string>
+    <string name="title_activity_buscar_no_servidor">BuscarNoServidor</string>
+    <string name="title_activity_notificacao">Notificacao</string>
+    <string name="title_activity_trailer">Trailer</string>
+    <string name="title_activity_splash">Cinema E Tv</string>
+    <string name="title_activity_tela_inicial">Séries e Filmes</string>
+    <string name="title_activity_tela_inicial2">TelaInicial2</string>
+    <string name="title_activity_android_detect_internet_connection">AndroidDetectInternetConnectionActivity</string>
+    <string name="title_activity_tela_filmes">TelaFilmes</string>
+
+</resources>
